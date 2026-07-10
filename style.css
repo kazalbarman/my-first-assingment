@@ -1,49 +1,78 @@
 /* universel  */
 * {
- padding: 0px;
- margin:0px;
+  padding: 0px;
+  margin: 0px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    text-align: center;
-    align-items: center;
-    padding: 10px 5%;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 10px 5%;
 }
-.nav-logo{
-    text-align: left;
-    width: 134px;
-    height: 44px;
-    
-
+.nav-logo {
+  text-align: left;
+  width: 134px;
+  height: 44px;
 }
-.nav-list{
-    padding: 20px;
+.nav-list {
+  padding: 20px;
 }
-.nav-list ul{
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    align-items: center;
+.nav-list ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  align-items: center;
 }
-.nav-list ul li a{
-    text-decoration: none;
-    color: #575757;
+.nav-list ul li a {
+  text-decoration: none;
+  color: #575757;
 }
-nav button{
-    background-color: blue;
-    border: none;
-    cursor: pointer;
-    color: aliceblue;
-    width: 188px;
-    height: 48px;
-    border-radius: 10px;
-    text-align: center;
+.button {
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  width: 188px;
+  height: 48px;
+  border-radius: 10px;
+  text-align: center;
 }
-nav button:hover{
-    background-color:red;
+.button:hover {
+  background-color: red;
 }
 /* end nav*/
 /* start hero */
+.header {
+  background-image: url("./images/banner.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+padding-top: 100px;
+}
+.header-content h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    
+}
+.header-content p{
+    color: #c6c3c3;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    
+   
+}
+.header-content button{
+    position: absolute;
+    bottom: 6px;
+}
+
