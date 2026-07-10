@@ -1,0 +1,49 @@
+/* universel  */
+* {
+ padding: 0px;
+ margin:0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 5%;
+    
+}
+.nav-logo{
+    text-align: left;
+    width: 134px;
+    height: 44px;
+    
+
+}
+.nav-list{
+    padding: 20px;
+}
+.nav-list ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+nav button{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    width: 188px;
+    height: 48px;
+    border-radius: 10px;
+    text-align: center;
+}
+nav button:hover{
+    background-color:red;
+}
+/* end nav*/
+/* start hero */
