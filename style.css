@@ -1,19 +1,20 @@
 /* universel  */
 * {
-  padding: 0px;
-  margin: 0px;
+  margin: auto;
+ max-width: 1200px;
 }
 nav {
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  padding: 10px 5%;
+  padding: 8px;
 }
 .nav-logo {
   text-align: left;
-  width: 134px;
-  height: 44px;
+  width: 100px;
+  height: 20px;
+  margin-top: 1px;
 }
 .nav-list {
   padding: 20px;
@@ -61,6 +62,7 @@ padding-top: 100px;
 .header-content h1{
     color: #FFFFFF;
     font-size: 48px;
+    width: auto;
     
 }
 .header-content p{
@@ -68,7 +70,7 @@ padding-top: 100px;
     font-size: 14px;
     text-align: center;
     margin: 10px;
-    
+    width: 300px;
    
 }
 .header-content button{
