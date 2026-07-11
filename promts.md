@@ -1,0 +1,1 @@
+I am a beginner now i want to hints a htlm and css file. Give me Create a devconf telecnology meeting venue section. Give it me Two division. first div have a tittle, paragraph, button and second div Venue img and about it. Venue img take a border and shadow
