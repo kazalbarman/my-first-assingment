@@ -157,8 +157,8 @@ padding: 0px 13%;
 .price-card-1{
   border: 2px, solid #E5E7EB;
   border-radius: 12px;
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 300px;
   padding: 32px;
   text-align: left;
   background-color: #FFFFFF;
@@ -189,12 +189,13 @@ padding: 0px 13%;
 .price-card-2{
   border: 2px, solid #E5E7EB;
   border-radius: 12px;
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 300px;
   padding: 32px;
   text-align: left;
   background-color: #0D1B2A;
   color:white ;
+  box-shadow: 10px 15px black blur;
 
 }
 .price-card-header-2 p{
@@ -212,8 +213,8 @@ padding: 0px 13%;
 .price-card-3{
   border: 2px, solid #E5E7EB;
   border-radius: 12px;
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 300px;
   padding: 32px;
   text-align: left;
   background-color: #E5E7EB;
